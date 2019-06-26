@@ -1,0 +1,42 @@
+{
+  "name": "lambda-thumbnail",
+  "version": "1.0.0",
+  "description": "A Package that allows users to automatically create thumbnails when uploaded to s3.",
+  "homepage": "",
+  "keywords": [
+    "lambda",
+    "aws",
+    "thumbnail",
+    "ffmpeg",
+    "thumbnails",
+    "video",
+    "serverless"
+  ],
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "echo \"ToDo: add the packaging/zipping\" && exit 1"
+  },
+  "author": {
+    "name": "Abhi Thakkar",
+    "email": "abhi.t@virtualveb.com",
+    "url": ""
+  },
+  "license": "",
+  "dependencies": {
+    "async": "^2.6.2",
+    "aws-sdk": "^2.345.0",
+    "config": "^3.0.1",
+    "ffmpeg": "0.0.4",
+    "fs": "0.0.1-security",
+    "get-video-dimensions": "^1.0.0",
+    "gm": "^1.23.1",
+    "request": "^2.88.0",
+    "util": "^0.11.1",
+    "video-screen": "0.0.1"
+  }
+}

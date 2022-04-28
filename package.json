@@ -28,7 +28,7 @@
   },
   "license": "",
   "dependencies": {
-    "async": "^2.6.2",
+    "async": "^2.6.4",
     "aws-sdk": "^2.345.0",
     "config": "^3.0.1",
     "ffmpeg": "0.0.4",
